@@ -31,7 +31,7 @@ p{
 .parallax-window{
 	text-align: center;
 	background-size: cover;
-    height: 100vh;
+	height: 100vh;
 	color: white;
 	display: auto;
 	margin:100px 0 0 0;
@@ -40,8 +40,7 @@ p{
 .parallax-window h1{
 	font-size: 5.5em;
 }
-.jumbotron-quote
-{
+.jumbotron-quote{
 	background-color: #42d2e6;
 	color: white;
 	margin: 0 0 20px 0;
@@ -55,15 +54,14 @@ p{
 	margin: 20px 0 20px 0;
 }
 .carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
+	color:black;
+	display:flex;
+	align-items:center;
 }
-
 #text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
+	width: 100%;
+	height: auto;
+	padding: 50px;
 }
 .carousel-control.right
 {
@@ -85,14 +83,14 @@ p{
 	color: white;
 }
 .navbar-brand{
-margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 .navbar-pills .navbar-toggle .icon-bar {
-    background-color: #bcbec0;
+	background-color: #bcbec0;
 }
 .glyphicon.glyphicon-menu-down {
-    font-size: 75px;
-    color: white;
+	font-size: 75px;
+	color: white;
 }
 .glyphicon.glyphicon-home{
 	padding: 10px;
@@ -102,8 +100,8 @@ margin-bottom: 30px;
 	padding: 10px;
 }
 .glyphicon.glyphicon-menu-up {
-    font-size: 75px;
-    color: white;
+	font-size: 75px;
+	color: white;
 }
 .copywrite{
 	color: grey;
