@@ -1,8 +1,9 @@
-/*Fonts*/
+/*Font Imports*/
 @import url(https://fonts.googleapis.com/css?family=Average);
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
+/*Font Styles*/
 h1, h2, h3, h4 {
 	font-family: 'Fjalla One', sans-serif;
 }
@@ -10,78 +11,7 @@ p{
 	font-family: Average; serif;
 	font-size: 1.25em;
 }
-/*NAV*/
-.navbar{
-	min-height: 100px;
-	background-color: white;
-	margin-bottom: 0px;
-	border: 0;
-	border-radius: 0;
-}
-.nav-link{
-	color: #bcbec0;
-}
-.nav-pills{
-	margin-top: 25px;
-}
-.container-nav{
-	max-width: 1200px;
-}
-/*Jumbotron-Home*/
-.parallax-window{
-	text-align: center;
-	background-size: cover;
-	height: 100vh;
-	color: white;
-	display: auto;
-	margin:100px 0 0 0;
-	padding: 50px;
-}
-.parallax-window h1{
-	font-size: 5.5em;
-}
-.jumbotron-quote{
-	background-color: #42d2e6;
-	color: white;
-	margin: 0 0 20px 0;
-	min-height: 250px;
-	padding: 50px;
-}
-.jumbotron-testimonial
-{
-	background-color: #42d2e6;
-	color: white;
-	margin: 20px 0 20px 0;
-}
-.carousel-content {
-	color:black;
-	display:flex;
-	align-items:center;
-}
-#text-carousel {
-	width: 100%;
-	height: auto;
-	padding: 50px;
-}
-.carousel-control.right
-{
-	background-image: none;
-}
-.carousel-control.left
-{
-	background-image: none;
-}
-.container-footer{
-	min-height: 200px;
-	background-color: #474747;
-	margin-top: 30px;
-	text-align: center;
-	color: white;
-	padding: 20px;
-}
-.carousel-content{
-	color: white;
-}
+/*Navigation Bar*/
 .navbar-brand{
 	margin-bottom: 30px;
 }
@@ -101,6 +31,77 @@ p{
 }
 .glyphicon.glyphicon-menu-up {
 	font-size: 75px;
+	color: white;
+}
+.navbar{
+	min-height: 100px;
+	background-color: white;
+	margin-bottom: 0px;
+	border: 0;
+	border-radius: 0;
+}
+.nav-link{
+	color: #bcbec0;
+}
+.nav-pills{
+	margin-top: 25px;
+}
+.container-nav{
+	max-width: 1200px;
+}
+/*Parallax*/
+.parallax-window{
+	text-align: center;
+	background-size: cover;
+	height: 100vh;
+	color: white;
+	display: auto;
+	margin:100px 0 0 0;
+	padding: 50px;
+}
+.parallax-window h1{
+	font-size: 5.5em;
+}
+/*Jumbotrons*/
+.jumbotron-quote{
+	background-color: #42d2e6;
+	color: white;
+	margin: 0 0 20px 0;
+	min-height: 250px;
+	padding: 50px;
+}
+.jumbotron-testimonial{
+	background-color: #42d2e6;
+	color: white;
+	margin: 20px 0 20px 0;
+}
+/*Carousel*/
+.carousel-content {
+	color:black;
+	display:flex;
+	align-items:center;
+}
+#text-carousel {
+	width: 100%;
+	height: auto;
+	padding: 50px;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.carousel-control.left{
+	background-image: none;
+}
+/*Footer*/
+.container-footer{
+	min-height: 200px;
+	background-color: #474747;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+.carousel-content{
 	color: white;
 }
 .copywrite{
