@@ -7,12 +7,14 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/smoothscroll.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/mystyles.css" type="text/css">
 </head>
 <body>
+		<!--NAVIGATION -->
 	<div class="container-full-width">
 		<div class="header clearfix">
 			<nav class="navbar navbar-pills navbar-fixed-top">
@@ -35,17 +37,19 @@
 							<li><a href="#">Contact</a></li> 
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#quote" class="btn-button btn-success smoothScroll"><span class="glyphicon glyphicon-heart-empty"></span> FREE QUOTE</a></li>
+							<li><a href="#quote" class="btn-button btn-success smoothScroll"><span class="glyphicon glyphicon-heart-empty"></span> FREE ESTIMATE</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</div>
 	</div>
-	<a name="top-page"></a> 
+	<!-- END OF NAVIGATION -->
+	<a name="top-page"></a>
+	<!-- HERO PARALLAX WINDOW -->
 	<div class="container-full-width">
 		<div class="parallax-window" data-parallax="scroll" data-image-src="img/london.jpg">
-			<div class="container">
+			<div class="container hero-head">
 				<h1>Your Dream, Our Reality</h1>
 				<p class="lead">Engaging Websites for Small Business and Entreprenurs.</p>
 			</div>
@@ -61,6 +65,8 @@
 			<p class="lead">Steve Jobs.</p><a name="webdesign"></a>
 		</div>
 	</div>
+		<!-- END OF HERO PARALLAX -->
+		<!-- SERVICE SECTION START -->
 	<div class="container">
 		<div class="col-md-12">
 			<hr>
@@ -105,32 +111,8 @@
 					<div class="col-md-6 col-md-pull-6">
 						<img class="img-responsive img-rounded center-block" src="img/seo.jpg">
 					</div>
-		<!--
-		<div>
-		<div class="col-md-12">
-		<hr>
-		</div>
-		<div class="col-md-6">
-		<h2>Social Media</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<a class="btn btn-success pull-right" href="#webdesign" role="button">Learn More</a>
-		</div>
-		<div class="col-md-6">
-		<img class="img img-responsive img-rounded center-block" src="img/social.jpg">
-		</div>
-	</div>-->
-</div>
-</div>
+			</div>
+	</div>
 </div>
 <div class="jumbotron jumbotron-fluid jumbotron-testimonial">
 	<div class="container">
@@ -274,21 +256,20 @@
 <div class="container-fluid container-footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 foot-col">
 				<div class="col-md-4">
-					<h2><span class="glyphicon glyphicon-home"></span>Get in touch</h2>
+					<h2><span class="glyphicon glyphicon-bullhorn"></span>Get in touch</h2>
 					<div class="col-md-12">
 						<div class="row">
 							<div class="col-md-12">
-								<div>56 Sandringham Drive</div>
-								<div>Ashford Middlesex</div>
-								<div>TW15 3JQ</div>
-
+								<div><span class="glyphicon glyphicon-envelope"></span><a href="mailto:info@blill.com">E-mail Us</a></div>
+								<div><span class="fa fa-facebook"></span><a href="www.facebook.com/blill">Facebook</a></div>
+								<div><span class="fa fa-instagram"></span><a href="www.instagram.com/blillweb">Instagram</a></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4"><a name="quote"></a>
+				<div class="col-md-4 foot-col"><a name="quote"></a>
 					<h2><span class="glyphicon glyphicon-comment"></span>Tell us about your project</h2>
 					<form>
 						<fieldset class="form-group">
@@ -304,11 +285,11 @@
 							</fieldset>
 						</form>
 					</div>
-					<div class="col-md-4">
-						<div class="well">
-						<h2>
-							<div><a href="#top-page" role="button" class="smoothScroll"><h2><span class="glyphicon glyphicon-menu-up"></span></a>
-							</div>
+					<div class="col-md-4 foot-col">
+						<div>
+						<h2><span class="glyphicon glyphicon-download"></span>Resources
+							<!--<div><a href="#top-page" role="button" class="smoothScroll"><h2><span class="glyphicon glyphicon-menu-up"></span></a>
+							</div>-->
 						</h2>
 						<li><a href="#">Privacy Policy</a></li>
 						<li><a href="#">Terms and Conditions</a></li>
@@ -319,7 +300,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<div class="col-md-4">
+				<div class="col-md-4 foot-col">
 					<span><p class="copywrite">Blill Ltd &copy; 2016</p>
 					</div>
 					<div class="col-md-4">

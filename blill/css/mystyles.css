@@ -33,8 +33,19 @@ p{
 	font-size: 75px;
 	color: white;
 }
+.glyphicon.glyphicon-bullhorn{
+	padding: 10px;
+}
+.glyphicon.glyphicon-envelope{
+	padding: 10px;
+
+}
+.glyphicon.glyphicon-download{
+	padding: 10px;
+
+}
 .navbar{
-	min-height: 100px;
+	min-height: 150px;
 	background-color: white;
 	margin-bottom: 0px;
 	border: 0;
@@ -75,6 +86,9 @@ p{
 	color: white;
 	margin: 20px 0 20px 0;
 }
+.hero-head{
+	margin-top: 100px;
+}
 /*Carousel*/
 .carousel-content {
 	color:black;
@@ -95,7 +109,7 @@ p{
 /*Footer*/
 .container-footer{
 	min-height: 200px;
-	background-color: #474747;
+	background-color: #1E1E1E;
 	margin-top: 30px;
 	text-align: center;
 	color: white;
@@ -106,4 +120,11 @@ p{
 }
 .copywrite{
 	color: grey;
+	background-color: 
+}
+.btn-success{
+	margin: 10px; 
+}
+.fa{
+	padding: 10px;
 }
